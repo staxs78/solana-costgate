@@ -1,0 +1,28 @@
+{
+  "name": "three_hop_mixed_venue",
+  "start_amount": 1000.0,
+  "assumptions": {
+    "sol_price_usd": 180.0,
+    "token_usd_price": 1.0,
+    "signatures": 1,
+    "base_fee_lamports": 5000,
+    "compute_unit_limit": 450000,
+    "compute_unit_price_microlamports": 25000,
+    "jito_tip_lamports": 20000000,
+    "tip_on_failure": false,
+    "land_probability": 0.5,
+    "flashloan_fee_bps": 5,
+    "flashloan_principal_sol": 5.55,
+    "ata_rent_lamports": 2039280,
+    "slippage_buffer_bps": 5,
+    "min_profit_usd": 2.0
+  },
+  "route": {
+    "name": "USDC->SOL->USDT->USDC (AMM + CLOB fill + stable swap)",
+    "hops": [
+      {"name": "Raydium_AMMv4_USDC_SOL", "reserve_in": 1000000.0, "reserve_out": 5000.0, "fee_bps": 25},
+      {"name": "CLOB_SOL_USDT_quote", "expected_out_ratio": 205.0},
+      {"name": "StableSwap_USDT_USDC", "expected_out_ratio": 1.0002}
+    ]
+  }
+}
