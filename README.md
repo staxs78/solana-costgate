@@ -126,6 +126,11 @@ All `Assumptions` fields are optional and defaulted.
   inside the AMM math, so avoid double counting: keep `slippage_buffer_bps` small
   unless you mean a margin of safety.
 
+## Related tools
+
+- [uart-decode](https://github.com/staxs78/uart-decode) - recover UART frames and baud from dead-console scope captures.
+- [price-match](https://github.com/staxs78/price-match) - deterministic competitor price matching for Shopify catalogs.
+
 ## License
 MIT — see `LICENSE`.
 
