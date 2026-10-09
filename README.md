@@ -140,7 +140,7 @@ offer a fixed-scope, no-private-alpha review:
   route (pool reserves, amounts, fee tiers, your CU price/limit and tip policy)
   and I'll return this gate's verdict plus a short written explanation — at no
   charge, so you can judge the analysis before paying.
-- **Router cost-control roadmap (paid, fixed fee).** A written audit of your
+- **Router cost-control roadmap (paid, from US$150 fixed).** A written audit of your
   detection → simulation → submission loop against the 2026 Solana cost model:
   where failed-tx spend leaks, how to size against break-even, priority-fee and
   Jito-tip policy, and a step-by-step integration of this gate. Delivered as a
