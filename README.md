@@ -1,6 +1,6 @@
 # costgate — after-cost profitability gate for atomic Solana arbitrage
 
-[![tests](https://img.shields.io/badge/tests-14%20passing-brightgreen)](#install--run)
+[![tests](https://github.com/staxs78/solana-costgate/actions/workflows/tests.yml/badge.svg)](https://github.com/staxs78/solana-costgate/actions/workflows/tests.yml)
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![deps](https://img.shields.io/badge/dependencies-none-lightgrey)
 
